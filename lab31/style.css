@@ -2,12 +2,11 @@ body {
   background-color: #d8e4f8;
   font-family: Arial, sans-serif;
   font-size: 13px;
+  margin: 0;
+  padding: 20px;
 }
 
 table.main {
-  width: 800px;
-  background-color: #fff;
-  border: 1px solid #336699;
   border-collapse: collapse;
 }
 
@@ -32,14 +31,6 @@ table.main {
   text-decoration: underline;
 }
 
-.sidebar {
-  background-color: #f2f4fb;
-  width: 220px;
-  border-right: 1px solid #ccc;
-  vertical-align: top;
-  padding: 5px;
-}
-
 .boxtitle {
   background-color: #d8e4f8;
   font-weight: bold;
@@ -57,16 +48,7 @@ table.main {
   padding: 4px;
 }
 
-.content {
-  padding: 10px;
-  vertical-align: top;
-}
-
-.info td {
-  padding: 2px 5px;
-}
-
-a {
-  color: #3b5998;
-  text-decoration: none;
+img {
+  display: block;
+  margin: 10px auto;
 }
