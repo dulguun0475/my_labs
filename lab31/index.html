@@ -27,20 +27,13 @@
       </td>
     </tr>
 
-    <!-- Main content -->
+    <!-- Main body -->
     <tr valign="top">
       <!-- Left sidebar -->
       <td class="sidebar">
         <table width="100%">
-          <tr>
-            <td class="boxtitle">Quick Search</td>
-          </tr>
-          <tr>
-            <td>
-              <input type="text" size="12" placeholder="search"> 
-              <button>go</button>
-            </td>
-          </tr>
+          <tr><td class="boxtitle">Quick Search</td></tr>
+          <tr><td><input type="text" size="12" placeholder="search"> <button>go</button></td></tr>
         </table>
         <br>
 
@@ -51,17 +44,6 @@
           <tr><td><a href="#">My Messages</a></td></tr>
           <tr><td><a href="#">My Privacy</a></td></tr>
         </table>
-        <br>
-
-        <table width="100%" class="smallbox">
-          <tr><td class="boxtitle">Connection</td></tr>
-          <tr><td>This is you.</td></tr>
-        </table>
-
-        <table width="100%" class="smallbox">
-          <tr><td class="boxtitle">Access</td></tr>
-          <tr><td>Scott is currently logged in from a non-residential location.</td></tr>
-        </table>
       </td>
 
       <!-- Right content -->
@@ -69,14 +51,32 @@
         <table width="100%">
           <tr><td colspan="2"><b>Scott Pearson’s Profile (This is you)</b></td></tr>
           <tr valign="top">
+            <!-- Picture + boxes -->
             <td width="40%">
-              <table border="1" cellpadding="3" cellspacing="0">
+              <table border="1" cellpadding="3" cellspacing="0" width="90%" align="center">
                 <tr><td align="center">
-                  <img src="https://upload.wikimedia.org/wikipedia/commons/0/0b/Facebook_old_design_2005.jpg" width="180" alt="profile">
+                  <!-- Локал зураг -->
+                  <img src="profile.jpg" width="180" alt="profile">
+                  <!-- GitHub зураг ашиглах бол доорх линкийг ашиглана -->
+                  <!-- <img src="https://github.com/username/repo/blob/main/profile.jpg?raw=true" width="180" alt="profile"> -->
                 </td></tr>
               </table>
-              <a href="#">[edit]</a>
+              <div align="right"><a href="#">[edit]</a></div>
+
+              <!-- Connection box -->
+              <table class="smallbox" width="90%" align="center">
+                <tr><td class="boxtitle">Connection</td></tr>
+                <tr><td>This is you.</td></tr>
+              </table>
+
+              <!-- Access box -->
+              <table class="smallbox" width="90%" align="center">
+                <tr><td class="boxtitle">Access</td></tr>
+                <tr><td>Scott is currently logged in from a non-residential location.</td></tr>
+              </table>
             </td>
+
+            <!-- Info -->
             <td>
               <table class="info" cellpadding="2" cellspacing="0">
                 <tr><td colspan="2"><b>Account Info:</b></td></tr>
@@ -102,3 +102,4 @@
   </table>
 </body>
 </html>
+
